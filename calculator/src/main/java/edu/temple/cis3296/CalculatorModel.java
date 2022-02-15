@@ -108,7 +108,15 @@ public class CalculatorModel {
         }
     }
 
-    public double operationClear() { return 0.0; }
+    public double operationClear() {
+        displayValue = 0.0;
+        displayString = "" + displayValue;
+        internalValue = 0;
+        dot = false;
+        start = true;
+        operation = "";
+        return 0.0; 
+    }
 
     public double operationAdd(double rhs, double lhs) {
         return lhs + lhs;
