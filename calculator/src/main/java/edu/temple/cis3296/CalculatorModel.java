@@ -111,6 +111,7 @@ public class CalculatorModel {
     public double operationClear() { return 0.0; }
 
     public double operationAdd(double rhs, double lhs) {
+        //This looks like the proper function
         return lhs + lhs;
     }
 
