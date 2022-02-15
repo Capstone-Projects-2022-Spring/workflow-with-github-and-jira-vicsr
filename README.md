@@ -1,3 +1,5 @@
+#Bri, Bryan, Cecily, Songyaun, Alyssa
+
 # MVC-Calculator
 MVC-Calculator is a Java example using the MVC design pattern to simulate a simple calculator. This calculator has two views a graphical user interface (GUI) using Java Swing and a command line interface (CLI). 
 
